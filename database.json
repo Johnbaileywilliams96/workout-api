@@ -1,0 +1,315 @@
+{
+    "muscleGroup": [
+      {
+        "id": 1,
+        "name": "chest",
+        "description": "pectoralis major and minor muscles"
+      },
+      {
+        "id": 2,
+        "name": "back",
+        "description": "latissimus dorsi, rhomboids, and trapezius"
+      },
+      {
+        "id": 3,
+        "name": "legs",
+        "description": "quadriceps, hamstrings, and calves"
+      },
+      {
+        "id": 4,
+        "name": "shoulders",
+        "description": "deltoids and rotator cuff muscles"
+      },
+      {
+        "id": 5,
+        "name": "abs",
+        "description": "abdominal muscles"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "john doe",
+        "email": "john@example.com",
+        "date": "2024-01-01"
+      },
+      {
+        "id": 2,
+        "name": "jane smith",
+        "email": "jane@example.com",
+        "date": "2024-01-02"
+      },
+      {
+        "id": 3,
+        "name": "mike johnson",
+        "email": "mike@example.com",
+        "date": "2024-01-03"
+      }
+    ],
+    "exercise": [
+      {
+        "id": 1,
+        "name": "bench press",
+        "description": "barbell press while lying on bench",
+        "muscleGroupId": 1
+      },
+      {
+        "id": 2,
+        "name": "deadlift",
+        "description": "barbell lift from floor",
+        "muscleGroupId": 2
+      },
+      {
+        "id": 3,
+        "name": "squat",
+        "description": "barbell squat",
+        "muscleGroupId": 3
+      },
+      {
+        "id": 4,
+        "name": "overhead press",
+        "description": "barbell press overhead",
+        "muscleGroupId": 4
+      },
+      {
+        "id": 5,
+        "name": "bicep curl",
+        "description": "dumbbell curl for biceps",
+        "muscleGroupId": 2
+      },
+      {
+        "id": 6,
+        "name": "pull-ups",
+        "description": "bodyweight back exercise",
+        "muscleGroupId": 2
+      },
+      {
+        "id": 7,
+        "name": "flys",
+        "description": "dumbbell chest exercise",
+        "muscleGroupId": 1
+      },
+      {
+        "id": 8,
+        "name": "lunges",
+        "description": "single-leg exercise",
+        "muscleGroupId": 3
+      },
+      {
+        "id": 9,
+        "name": "sit-ups",
+        "description": "abdominal exercise",
+        "muscleGroupId": 5
+      }
+    ],
+    "workout": [
+      {
+        "id": 1,
+        "userId": 1,
+        "muscleGroup": 1,
+        "title": "monday chest day",
+        "updated": "2024-01-15",
+        "dateCompleted": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "muscleGroup": 2,
+        "title": "back workout",
+        "updated": "2024-01-16",
+        "dateCompleted": "2024-01-16"
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "muscleGroup": 3,
+        "title": "leg day",
+        "updated": "2024-01-17",
+        "dateCompleted": "2024-01-17"
+      },
+      {
+        "id": 4,
+        "userId": 1,
+        "muscleGroup": 4,
+        "title": "shoulder focus",
+        "updated": "2024-01-18",
+        "dateCompleted": "2024-01-18"
+      }
+    ],
+    "workoutExercise": [
+      {
+        "id": 1,
+        "exerciseId": 1,
+        "workoutId": 1,
+        "order": 1
+      },
+      {
+        "id": 2,
+        "exerciseId": 7,
+        "workoutId": 1,
+        "order": 2
+      },
+      {
+        "id": 3,
+        "exerciseId": 2,
+        "workoutId": 2,
+        "order": 1
+      },
+      {
+        "id": 4,
+        "exerciseId": 6,
+        "workoutId": 2,
+        "order": 2
+      },
+      {
+        "id": 5,
+        "exerciseId": 3,
+        "workoutId": 3,
+        "order": 1
+      },
+      {
+        "id": 6,
+        "exerciseId": 8,
+        "workoutId": 3,
+        "order": 2
+      },
+      {
+        "id": 7,
+        "exerciseId": 4,
+        "workoutId": 4,
+        "order": 1
+      }
+    ],
+    "set": [
+      {
+        "id": 1,
+        "workoutExerciseId": 1,
+        "reps": 10,
+        "weight": 135,
+        "setOrder": 1,
+        "notes": "warm up set",
+        "createdAt": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "workoutExerciseId": 1,
+        "reps": 8,
+        "weight": 185,
+        "setOrder": 2,
+        "notes": "working set",
+        "createdAt": "2024-01-15"
+      },
+      {
+        "id": 3,
+        "workoutExerciseId": 2,
+        "reps": 15,
+        "weight": 0,
+        "setOrder": 1,
+        "notes": "bodyweight",
+        "createdAt": "2024-01-15"
+      },
+      {
+        "id": 4,
+        "workoutExerciseId": 3,
+        "reps": 5,
+        "weight": 225,
+        "setOrder": 1,
+        "notes": "new pr",
+        "createdAt": "2024-01-16"
+      },
+      {
+        "id": 5,
+        "workoutExerciseId": 4,
+        "reps": 12,
+        "weight": 0,
+        "setOrder": 1,
+        "notes": "bodyweight",
+        "createdAt": "2024-01-16"
+      },
+      {
+        "id": 6,
+        "workoutExerciseId": 5,
+        "reps": 8,
+        "weight": 205,
+        "setOrder": 1,
+        "notes": "form check",
+        "createdAt": "2024-01-17"
+      },
+      {
+        "id": 7,
+        "workoutExerciseId": 6,
+        "reps": 12,
+        "weight": 0,
+        "setOrder": 1,
+        "notes": "each leg",
+        "createdAt": "2024-01-17"
+      },
+      {
+        "id": 8,
+        "workoutExerciseId": 7,
+        "reps": 10,
+        "weight": 95,
+        "setOrder": 1,
+        "notes": "strict form",
+        "createdAt": "2024-01-18"
+      }
+    ],
+    "post": [
+      {
+        "id": 1,
+        "userId": 1,
+        "workoutId": 1,
+        "content": "great chest day! hit a new bench pr",
+        "createdAt": "2024-01-15",
+        "likesCount": 2
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "workoutId": 2,
+        "content": "back day complete! loving the progress",
+        "createdAt": "2024-01-16",
+        "likesCount": 2
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "workoutId": 3,
+        "content": "never skip leg day!",
+        "createdAt": "2024-01-17",
+        "likesCount": 2
+      }
+    ],
+    "likes": [
+      {
+        "id": 1,
+        "postId": 1,
+        "userId": 2
+      },
+      {
+        "id": 2,
+        "postId": 1,
+        "userId": 3
+      },
+      {
+        "id": 3,
+        "postId": 2,
+        "userId": 1
+      },
+      {
+        "id": 4,
+        "postId": 2,
+        "userId": 3
+      },
+      {
+        "id": 5,
+        "postId": 3,
+        "userId": 1
+      },
+      {
+        "id": 6,
+        "postId": 3,
+        "userId": 2
+      }
+    ]
+  }

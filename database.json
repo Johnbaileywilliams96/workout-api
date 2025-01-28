@@ -243,13 +243,6 @@
       "setOrder": 1,
       "notes": "strict form",
       "createdAt": "2024-01-18"
-    },
-    {
-      "exerciseName": "bicep curl",
-      "reps": 8,
-      "weight": 90,
-      "setOrder": 1,
-      "id": 9
     }
   ],
   "posts": [

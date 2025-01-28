@@ -180,16 +180,7 @@
       "order": 1
     }
   ],
-  "set": [
-    {
-      "id": 1,
-      "workoutExerciseId": 1,
-      "reps": 10,
-      "weight": 135,
-      "setOrder": 1,
-      "notes": "warm up set",
-      "createdAt": "2024-01-15"
-    },
+  "sets": [
     {
       "id": 2,
       "workoutExerciseId": 1,
@@ -252,9 +243,16 @@
       "setOrder": 1,
       "notes": "strict form",
       "createdAt": "2024-01-18"
+    },
+    {
+      "exerciseName": "bicep curl",
+      "reps": 8,
+      "weight": 90,
+      "setOrder": 1,
+      "id": 9
     }
   ],
-  "post": [
+  "posts": [
     {
       "id": 1,
       "userId": 1,

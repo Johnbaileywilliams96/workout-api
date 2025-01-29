@@ -130,6 +130,13 @@
       "muscleGroupId": 4,
       "title": "shoulder focus",
       "dateCompleted": "2024-01-18"
+    },
+    {
+      "title": "chest ",
+      "muscleGroup": "1",
+      "userId": 3,
+      "date": "2025-01-29T16:11:38.799Z",
+      "id": 5
     }
   ],
   "workoutExercise": [
@@ -239,48 +246,6 @@
       "setOrder": 1,
       "notes": "strict form",
       "createdAt": "2024-01-18"
-    },
-    {
-      "exerciseName": "overhead press",
-      "reps": 2,
-      "weight": 1000,
-      "setOrder": 1,
-      "id": 9
-    },
-    {
-      "exerciseName": "bicep curl",
-      "reps": 6,
-      "weight": 50,
-      "setOrder": 1,
-      "id": 10
-    },
-    {
-      "exerciseName": "squat",
-      "reps": 3,
-      "weight": 1000,
-      "setOrder": 1,
-      "id": 11
-    },
-    {
-      "exerciseName": "flys",
-      "reps": 3,
-      "weight": 10,
-      "setOrder": 1,
-      "id": 12
-    },
-    {
-      "exerciseName": "lunges",
-      "reps": 7,
-      "weight": 60,
-      "setOrder": 1,
-      "id": 13
-    },
-    {
-      "exerciseName": "bench press",
-      "reps": 8,
-      "weight": 225,
-      "setOrder": 1,
-      "id": 14
     }
   ],
   "posts": [

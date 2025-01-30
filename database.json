@@ -46,9 +46,9 @@
       "date": "2024-01-03"
     },
     {
-      "email": "j@example.com",
-      "date": "2025-01-29T19:38:48.642Z",
-      "name": "John",
+      "email": "j9@gmail.com",
+      "date": "2025-01-30",
+      "name": "john",
       "id": 4
     }
   ],
@@ -136,6 +136,13 @@
       "muscleGroupId": 4,
       "title": "shoulder focus",
       "dateCompleted": "2024-01-18"
+    },
+    {
+      "title": "butt ",
+      "muscleGroupId": 3,
+      "userId": 4,
+      "dateCompleted": "2025-01-30",
+      "id": 5
     }
   ],
   "workoutExercise": [
@@ -170,15 +177,15 @@
       "order": 1
     },
     {
-      "workoutId": 8,
-      "exerciseId": 2,
+      "workoutId": 5,
+      "exerciseId": 1,
       "order": 6,
       "id": 6
     },
     {
-      "workoutId": 9,
-      "exerciseId": 1,
-      "order": 7,
+      "workoutId": 5,
+      "exerciseId": 3,
+      "order": 6,
       "id": 7
     }
   ],

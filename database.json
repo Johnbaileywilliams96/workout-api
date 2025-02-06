@@ -136,6 +136,78 @@
       "name": "romanian deadlift",
       "description": "dumbbell leg exercise",
       "muscleGroupId": 3
+    },
+    {
+      "id": 15,
+      "name": "incline bench press",
+      "description": "barbell press while on an incline bench",
+      "muscleGroupId": 1
+    },
+    {
+      "id": 16,
+      "name": "incline flys",
+      "description": "dumbbell flys while on an incline bench",
+      "muscleGroupId": 1
+    },
+    {
+      "id": 17,
+      "name": "standing cable flys",
+      "description": "cable flys while standing",
+      "muscleGroupId": 1
+    },
+    {
+      "id": 18,
+      "name": "cable rope pulldown",
+      "description": "rope pulldown on cables works triceps",
+      "muscleGroupId": 1
+    },
+    {
+      "id": 19,
+      "name": "dumbbell tricep press",
+      "description": "dumbbell soccer through works triceps",
+      "muscleGroupId": 1
+    },
+    {
+      "id": 20,
+      "name": "heel touches",
+      "description": "laying back on floor touching heels works obliques",
+      "muscleGroupId": 5
+    },
+    {
+      "id": 21,
+      "name": "toe touches",
+      "description": "laying back on floor touching toes to air works core",
+      "muscleGroupId": 5
+    },
+    {
+      "id": 22,
+      "name": "dumbbell row",
+      "description": "one knee on bench rowing a dumbbell",
+      "muscleGroupId": 2
+    },
+    {
+      "id": 23,
+      "name": "bent over rows",
+      "description": "barbell back exercise that works entire back",
+      "muscleGroupId": 2
+    },
+    {
+      "id": 24,
+      "name": "shrugs",
+      "description": "barbell or dumbbell exercise that works traps",
+      "muscleGroupId": 2
+    },
+    {
+      "id": 25,
+      "name": "barbell curls",
+      "description": "standing curls using a straight bar",
+      "muscleGroupId": 2
+    },
+    {
+      "id": 26,
+      "name": "flutter kicks",
+      "description": "laying back on floor alternating legs",
+      "muscleGroupId": 5
     }
   ],
   "workouts": [
@@ -159,13 +231,6 @@
       "muscleGroupId": 3,
       "title": "leg day",
       "dateCompleted": "2024-01-17"
-    },
-    {
-      "title": "shoulder day ",
-      "muscleGroupId": 4,
-      "userId": 4,
-      "dateCompleted": "2025-02-06",
-      "id": 4
     }
   ],
   "workoutExercise": [
@@ -186,30 +251,6 @@
       "exerciseId": 2,
       "workoutId": 2,
       "order": 1
-    },
-    {
-      "workoutId": 4,
-      "exerciseId": 10,
-      "order": 4,
-      "id": 4
-    },
-    {
-      "workoutId": 4,
-      "exerciseId": 10,
-      "order": 5,
-      "id": 5
-    },
-    {
-      "workoutId": 4,
-      "exerciseId": 11,
-      "order": 6,
-      "id": 6
-    },
-    {
-      "workoutId": 4,
-      "exerciseId": 11,
-      "order": 7,
-      "id": 7
     }
   ],
   "sets": [
@@ -236,38 +277,6 @@
       "weight": 225,
       "setOrder": 1,
       "createdAt": "2024-01-16"
-    },
-    {
-      "workoutExerciseId": 4,
-      "reps": 17,
-      "weight": 222,
-      "setOrder": 1,
-      "createdAt": "2025-02-06",
-      "id": 5
-    },
-    {
-      "workoutExerciseId": 5,
-      "reps": 6,
-      "weight": 300,
-      "setOrder": 2,
-      "createdAt": "2025-02-06",
-      "id": 6
-    },
-    {
-      "workoutExerciseId": 6,
-      "reps": 7,
-      "weight": 3000,
-      "setOrder": 3,
-      "createdAt": "2025-02-06",
-      "id": 7
-    },
-    {
-      "workoutExerciseId": 7,
-      "reps": 8,
-      "weight": 2000,
-      "setOrder": 4,
-      "createdAt": "2025-02-06",
-      "id": 8
     }
   ],
   "posts": [
@@ -291,13 +300,6 @@
       "workoutId": 3,
       "content": "never skip leg day!",
       "createdAt": "2024-01-17"
-    },
-    {
-      "userId": 4,
-      "content": "shoulder day ",
-      "workoutId": 4,
-      "createdAt": "2025-02-06",
-      "id": 4
     }
   ],
   "likes": [

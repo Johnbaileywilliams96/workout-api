@@ -106,6 +106,36 @@
       "name": "sit-ups",
       "description": "abdominal exercise",
       "muscleGroupId": 5
+    },
+    {
+      "id": 10,
+      "name": "rear-delts",
+      "description": "dumbbell shoulder exercise",
+      "muscleGroupId": 4
+    },
+    {
+      "id": 11,
+      "name": "side lateral raise",
+      "description": "dumbbell shoulder exercise",
+      "muscleGroupId": 4
+    },
+    {
+      "id": 12,
+      "name": "front squat",
+      "description": "barbell leg exercise",
+      "muscleGroupId": 3
+    },
+    {
+      "id": 13,
+      "name": "calve raises",
+      "description": "barbell leg exercise",
+      "muscleGroupId": 3
+    },
+    {
+      "id": 14,
+      "name": "romanian deadlift",
+      "description": "dumbbell leg exercise",
+      "muscleGroupId": 3
     }
   ],
   "workouts": [
@@ -129,6 +159,13 @@
       "muscleGroupId": 3,
       "title": "leg day",
       "dateCompleted": "2024-01-17"
+    },
+    {
+      "title": "shoulder day ",
+      "muscleGroupId": 4,
+      "userId": 4,
+      "dateCompleted": "2025-02-06",
+      "id": 4
     }
   ],
   "workoutExercise": [
@@ -149,6 +186,30 @@
       "exerciseId": 2,
       "workoutId": 2,
       "order": 1
+    },
+    {
+      "workoutId": 4,
+      "exerciseId": 10,
+      "order": 4,
+      "id": 4
+    },
+    {
+      "workoutId": 4,
+      "exerciseId": 10,
+      "order": 5,
+      "id": 5
+    },
+    {
+      "workoutId": 4,
+      "exerciseId": 11,
+      "order": 6,
+      "id": 6
+    },
+    {
+      "workoutId": 4,
+      "exerciseId": 11,
+      "order": 7,
+      "id": 7
     }
   ],
   "sets": [
@@ -175,6 +236,38 @@
       "weight": 225,
       "setOrder": 1,
       "createdAt": "2024-01-16"
+    },
+    {
+      "workoutExerciseId": 4,
+      "reps": 17,
+      "weight": 222,
+      "setOrder": 1,
+      "createdAt": "2025-02-06",
+      "id": 5
+    },
+    {
+      "workoutExerciseId": 5,
+      "reps": 6,
+      "weight": 300,
+      "setOrder": 2,
+      "createdAt": "2025-02-06",
+      "id": 6
+    },
+    {
+      "workoutExerciseId": 6,
+      "reps": 7,
+      "weight": 3000,
+      "setOrder": 3,
+      "createdAt": "2025-02-06",
+      "id": 7
+    },
+    {
+      "workoutExerciseId": 7,
+      "reps": 8,
+      "weight": 2000,
+      "setOrder": 4,
+      "createdAt": "2025-02-06",
+      "id": 8
     }
   ],
   "posts": [
@@ -198,6 +291,13 @@
       "workoutId": 3,
       "content": "never skip leg day!",
       "createdAt": "2024-01-17"
+    },
+    {
+      "userId": 4,
+      "content": "shoulder day ",
+      "workoutId": 4,
+      "createdAt": "2025-02-06",
+      "id": 4
     }
   ],
   "likes": [
